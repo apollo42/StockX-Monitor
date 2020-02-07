@@ -2,7 +2,8 @@ const rp = require('request-promise-native');
 const cheerio = require('cheerio');
 
 const webhooks = require('./webhooks');
-const DISCORD_HOOK = 'https://discordapp.com/api/webhooks/614307289444122624/l__zDjf61YRa5mG7xJ21J2EJjHrACe2tc-M0nvTQVd0xh-VA6JmNIUFB_YdWFD_ejOMZ';
+// Your discord webhook
+const DISCORD_HOOK = '';
 
 function eliminateDuplicates(arr) {
   let i;
